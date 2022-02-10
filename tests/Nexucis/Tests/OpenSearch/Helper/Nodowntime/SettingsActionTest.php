@@ -1,9 +1,9 @@
 <?php
 
-namespace Nexucis\Tests\Elasticsearch\Helper\Nodowntime;
+namespace Nexucis\Tests\OpenSearch\Helper\Nodowntime;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
+use OpenSearch\Common\Exceptions\InvalidArgumentException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
 
 class SettingsActionTest extends AbstractIndexHelperTest
 {

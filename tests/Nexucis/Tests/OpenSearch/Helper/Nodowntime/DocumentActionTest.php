@@ -1,10 +1,10 @@
 <?php
 
-namespace Nexucis\Tests\Elasticsearch\Helper\Nodowntime;
+namespace Nexucis\Tests\OpenSearch\Helper\Nodowntime;
 
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Parameter\SearchParameter;
+use OpenSearch\Common\Exceptions\Missing404Exception;
+use Nexucis\OpenSearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Parameter\SearchParameter;
 use stdClass;
 
 class DocumentActionTest extends AbstractIndexHelperTest

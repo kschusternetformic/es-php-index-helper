@@ -1,12 +1,12 @@
 <?php
 
-namespace Nexucis\Elasticsearch\Helper\Nodowntime\Parameter;
+namespace Nexucis\OpenSearch\Helper\Nodowntime\Parameter;
 
 /**
  * Class SearchParameter
  *
- * @category Elasticsearch Helper
- * @package  Nexucis\Elasticsearch\Helper\Nodowntime\Parameter
+ * @category OpenSearch Helper
+ * @package  Nexucis\OpenSearch\Helper\Nodowntime\Parameter
  * @author   Augustin Husson <husson.augustin@gmail.com>
  * @license  MIT
  */

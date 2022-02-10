@@ -1,18 +1,18 @@
 <?php
 
-namespace Nexucis\Elasticsearch\Helper\Nodowntime;
+namespace Nexucis\OpenSearch\Helper\Nodowntime;
 
-use Elasticsearch\Client;
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions\IndexAlreadyExistException;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Parameter\SearchParameter;
+use OpenSearch\Client;
+use OpenSearch\Common\Exceptions\InvalidArgumentException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Exceptions\IndexAlreadyExistException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Parameter\SearchParameter;
 
 /**
  * Class IndexHelperInterface
  *
- * @category Elasticsearch Helper
- * @package  Nexucis\Elasticsearch\Helper\Nodowntime
+ * @category OpenSearch Helper
+ * @package  Nexucis\OpenSearch\Helper\Nodowntime
  * @author   Augustin Husson <husson.augustin@gmail.com>
  * @license  MIT
  */

@@ -1,18 +1,18 @@
 <?php
 
-namespace Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions;
+namespace Nexucis\OpenSearch\Helper\Nodowntime\Exceptions;
 
-use Elasticsearch\Common\Exceptions\ElasticsearchException;
+use OpenSearch\Common\Exceptions\OpenSearchException;
 
 /**
  * IndexAlreadyExistException thrown when an index already exists
  *
- * @category Elasticsearch Helper
- * @package  Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions
+ * @category OpenSearch Helper
+ * @package  Nexucis\OpenSearch\Helper\Nodowntime\Exceptions
  * @author   Augustin Husson <husson.augustin@gmail.com>
  * @license  MIT
  */
-class IndexAlreadyExistException extends \Exception implements ElasticsearchException
+class IndexAlreadyExistException extends \Exception implements OpenSearchException
 {
 
     /**

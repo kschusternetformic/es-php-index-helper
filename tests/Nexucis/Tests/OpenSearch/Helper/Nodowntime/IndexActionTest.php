@@ -1,9 +1,9 @@
 <?php
 
-namespace Nexucis\Tests\Elasticsearch\Helper\Nodowntime;
+namespace Nexucis\Tests\OpenSearch\Helper\Nodowntime;
 
-use Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions\IndexAlreadyExistException;
-use Nexucis\Elasticsearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Exceptions\IndexAlreadyExistException;
+use Nexucis\OpenSearch\Helper\Nodowntime\Exceptions\IndexNotFoundException;
 use Yoast\PHPUnitPolyfills\Polyfills\AssertionRenames;
 
 class IndexActionTest extends AbstractIndexHelperTest

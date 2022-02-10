@@ -1,8 +1,8 @@
 <?php
 
-namespace Nexucis\Tests\Elasticsearch\Helper\Nodowntime\Parameter;
+namespace Nexucis\Tests\OpenSearch\Helper\Nodowntime\Parameter;
 
-use Nexucis\Elasticsearch\Helper\Nodowntime\Parameter\SearchParameter;
+use Nexucis\OpenSearch\Helper\Nodowntime\Parameter\SearchParameter;
 use PHPUnit\Framework\TestCase;
 
 class SearchParameterTest extends TestCase

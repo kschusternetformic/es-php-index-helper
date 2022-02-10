@@ -1,9 +1,9 @@
 <?php
 
-namespace Nexucis\Tests\Elasticsearch\Helper\Nodowntime;
+namespace Nexucis\Tests\OpenSearch\Helper\Nodowntime;
 
-use Elasticsearch\ClientBuilder;
-use Nexucis\Elasticsearch\Helper\Nodowntime\IndexHelper;
+use OpenSearch\ClientBuilder;
+use Nexucis\OpenSearch\Helper\Nodowntime\IndexHelper;
 use PHPUnit\Framework\TestCase;
 
 abstract class AbstractIndexHelperTest extends TestCase
@@ -15,7 +15,7 @@ abstract class AbstractIndexHelperTest extends TestCase
     protected $helper;
 
     /**
-     * @var $client \Elasticsearch\Client
+     * @var $client \OpenSearch\Client
      */
     protected $client;
 
